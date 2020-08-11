@@ -12,6 +12,7 @@
 }
 #about{
     grid-area: About;
+
 }
 #Store{
     grid-area: Store;
@@ -27,7 +28,4 @@
 }
 #Sign-in{
     grid-area: Sign-in;
-}
-#main{
-    
 }
