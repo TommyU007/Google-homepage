@@ -5,7 +5,26 @@
 #navbar{
     display: grid;
     grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
-    grid-template-rows: 45px;
-    grid-template-areas: About Store . Gmail Images Menu Sign-in;
+    grid-template-rows: 50px;
+    grid-template-areas: "About Store . Gmail Images Menu Sign-in";
     margin: 0 20px;
+    color: rgba(0, 0, 0, 0.973);
+}
+#about{
+    grid-area: About;
+}
+#Store{
+    grid-area: Store;
+}
+#Gmail{
+    grid-area: Gmail;
+}
+#Images{
+    grid-area: Images;
+}
+#Menu{
+    grid-area: Menu;
+}
+#Sign-in{
+    grid-area: Sign-in;
 }
