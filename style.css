@@ -30,7 +30,6 @@
 #Sign-in{
     grid-area: Sign-in;
 }
-/* main section */
 #main{
     min-height: 100%;
     display: grig;
@@ -46,3 +45,23 @@
     display: grid;
     
 }
+#search{
+
+}
+#flexbox{
+
+}
+#google-text{
+
+}
+
+#footer{
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    grid-template-columns: 100px 100px 100px 1fr 100px 100px 100px;
+    grid-template-rows: 50px;
+    grid-template-areas: " Advertising Business hsw . Privacy  Terms Settins ";
+}
+
+
