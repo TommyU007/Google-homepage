@@ -2,3 +2,10 @@
     height: 100%;
     min-height: 100%;
 }
+#navbar{
+    display: grid;
+    grid-template-columns: 52px 52px 1fr 52px 52px 52px 52px;
+    grid-template-rows: 35px;
+    grid-template-areas: About Store . Gmail Images Menu Sign-in;
+    margin: 0 20px;
+}
