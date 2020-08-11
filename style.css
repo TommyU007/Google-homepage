@@ -4,8 +4,8 @@
 }
 #navbar{
     display: grid;
-    grid-template-columns: 52px 52px 1fr 52px 52px 52px 52px;
-    grid-template-rows: 35px;
+    grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
+    grid-template-rows: 45px;
     grid-template-areas: About Store . Gmail Images Menu Sign-in;
     margin: 0 20px;
 }
