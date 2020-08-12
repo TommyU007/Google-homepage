@@ -61,13 +61,13 @@ font-size: 15px;
 font-family: Arial, Helvetica, sans-serif;}
 
 
-.left-button:hover{
+.button-on-left:hover{
    border-width: 1px;
    border-color: rgb(199, 199, 199);
    color:black;
    animation-fill-mode: forwards;
 }
-.right-button:hover{
+.button-on-right:hover{
    border-width: 1px;
    border-color: rgb(199, 199, 199);
    color:black;
@@ -75,7 +75,7 @@ font-family: Arial, Helvetica, sans-serif;}
 
 }
 
-.text-links{ 
+.google-text{ 
     background-color: white;
     padding: 10px 24px;
     margin:auto;
@@ -90,7 +90,7 @@ a:hover {
      text-decoration: underline;
      }
 
-.text-uzbeistan{
+.Country{
     background-color: rgb(241, 241, 241);
     position: absolute;
     bottom: 40px;
@@ -105,10 +105,9 @@ a:hover {
     font-weight: lighter;
     color: rgb(114, 114, 114);
     margin-top: 20px;
-    
 }
 
- .text-postion{ 
+ .location{ 
     text-align: left;
     margin-left: 30px;}}
 
@@ -156,7 +155,7 @@ ul{ position: fixed;
     }
 
 
-.upper-part{ 
+.Navbar{ 
     position: absolute;
     top: 10px;
     right: 30px;
@@ -175,13 +174,13 @@ ul{ position: fixed;
     width: 30px;
     
     }
-#placing1{
+#Gmail{
     color:rgb(46, 46, 46);
     position: absolute;
     top: 10px;
     right: 120px;
     }
-#plasing{ color:rgb(46, 46, 46);
+#Images{ color:rgb(46, 46, 46);
     position: absolute;
     top: 10px;
     right: 60px;}
