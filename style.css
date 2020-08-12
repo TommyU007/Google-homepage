@@ -1,36 +1,191 @@
-<div class="Navbar">
-            <a id="account" href="#" target="_balnk">Gmail</a>
-            <a id="Images" href="#" target="_blank">Images</a>
-             <a href="#"><img class="profil-image" src="2020-06-30.jpg"></a>
-            </div>
-            <div>
-                <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"></div><br>
-                <form action=""><input class="searchbar" type="search">
-                </form><br>
-            
-            <div class="buttons">
-                <button type="button" class="left-button">Google search</button> 
-                <button type="button" class="right-button">I'm Feeling Lucky</button>
-            </div>
-            <div>
-                <p class="text-links">Google offered in:
-                    <a href="https://www.google.com/" target="_blank">O'zbek</a> 
-                    <a href="https://www.google.com/">русский</a>
-                </p>
-            </div>
-            <div class="text-uzbeistan">
-                <div class="text-postion">
-                Uzbekistan
-               </div>
-            </div>
-            <footer>
-                <ul>
-                    <li style="margin-left: 10px"><a href="https://ads.google.com/intl/en_uz/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">Advertising</a></li> 
-                    <li><a href="https://ads.google.com/intl/en_uz/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">Business</a></li>
-                    <li><a href="https://about.google/?utm_source=google-UZ&amp;utm_medium=referral&amp;utm_campaign=hp-footer&amp;fg=1">About</a></li>
-                    <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></li>
-                    <li style="float:right; margin-right: 30px;"><a href="https://policies.google.com/privacy?hl=en-UZ&amp;fg=1">Privacy</a></li>
-                    <li style="float:right"><a href="https://policies.google.com/terms?hl=en-UZ&amp;fg=1">Terms</a></li>
-                    <li style="float:right"><a href="#">Settings</a></li>
-                
-               </ul>
+.logo{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+    
+}
+.searchbar{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    }
+
+input{
+    width: 45%;
+    padding: 12px 20px;
+    border: 1px solid rgb(143, 135, 135);
+    background-color: white;
+    background-image: url(index.png);
+    background-size: 15px, 15px, auto;
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    opacity: 40%;
+    padding-left: 40px;
+    
+    
+}
+
+input:hover {box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.19);
+
+}
+.buttons{
+    background-color: white;
+    border: 1px grey;
+    color: rgb(65, 64, 64);
+    padding: 10px 24px;
+    margin:auto;
+    text-align: center;
+
+}
+
+.left-button{border-width: 0px;
+border-radius: 6px;
+background-color: rgb(243, 243, 243);
+color: rgb(92, 92, 92);
+cursor:pointer;
+margin-right: 10px;
+padding: 8px 15px 8px 15px;
+transition-duration: 0.4s;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;}
+
+.right-button{border-width: 0px;
+border-radius: 6px;
+background-color: rgb(243, 243, 243);
+color: rgb(92, 92, 92);
+cursor:pointer;
+padding: 8px 15px 8px 15px;
+transition-duration: 0.4s;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;}
+
+
+.left-button:hover{
+   border-width: 1px;
+   border-color: rgb(199, 199, 199);
+   color:black;
+   animation-fill-mode: forwards;
+}
+.right-button:hover{
+   border-width: 1px;
+   border-color: rgb(199, 199, 199);
+   color:black;
+   animation-fill-mode: forwards;
+
+}
+
+.text-links{ 
+    background-color: white;
+    padding: 10px 24px;
+    margin:auto;
+    text-align: center;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 16px;}
+a {text-decoration: none;}
+
+ 
+a:hover {
+     text-decoration: underline;
+     }
+
+.text-uzbeistan{
+    background-color: rgb(241, 241, 241);
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    right: 0px;
+    border-top:solid rgb(209, 208, 208) 0.5px;
+    border-bottom: solid rgb(209, 208, 208) 0.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgb(114, 114, 114);
+    margin-top: 20px;
+    
+}
+
+ .text-postion{ 
+    text-align: left;
+    margin-left: 30px;}}
+
+footer{background-color: rgb(241, 241, 241);
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+    border-top:solid rgb(209, 208, 208) 0.5px;
+    border-bottom: solid rgb(209, 208, 208) 0.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgb(114, 114, 114);
+    margin-top: 20px;
+    height: 40px;
+
+   } 
+ul{ position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    background-color: rgb(241, 241, 241);
+    height: 40px;}
+
+    li {
+    float: left;
+    }
+
+    li a {
+    display: block;
+    color:rgb(114, 114, 114);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+
+
+.upper-part{ 
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color:rgb(114, 114, 114);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color:
+    ;
+    }
+.profil-image{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border: solid 0px;
+    border-radius: 50%;
+    width: 30px;
+    
+    }
+#placing1{
+    color:rgb(46, 46, 46);
+    position: absolute;
+    top: 10px;
+    right: 120px;
+    }
+#plasing{ color:rgb(46, 46, 46);
+    position: absolute;
+    top: 10px;
+    right: 60px;}
+
+
+
+
