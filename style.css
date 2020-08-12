@@ -1,67 +1,36 @@
-#html{
-    height: 100%;
-    min-height: 100%;
-}
-/* navbar section */
-#navbar{
-    display: grid;
-    grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
-    grid-template-rows: 50px;
-    grid-template-areas: "About Store . Gmail Images Menu Sign-in";
-    margin: 0 20px;
-    color: rgba(0, 0, 0, 0.973);
-}
-#about{
-    grid-area: About;
-
-}
-#Store{
-    grid-area: Store;
-}
-#Gmail{
-    grid-area: Gmail;
-}
-#Images{
-    grid-area: Images;
-}
-#Menu{
-    grid-area: Menu;
-}
-#Sign-in{
-    grid-area: Sign-in;
-}
-#main{
-    min-height: 100%;
-    display: grig;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 250px 75px 75px 250px;
-    grid-template-areas: 
-    ". logo ."
-    ". Search ."
-    ". flexbox ."
-    ". Google-text .";
-}
-#logo{
-    display: grid;
-    
-}
-#search{
-
-}
-#flexbox{
-
-}
-#google-text{
-
-}
-
-#footer{
-    display: grid;
-    position: absolute;
-    bottom: 0;
-    grid-template-columns: 100px 100px 100px 1fr 100px 100px 100px;
-    grid-template-rows: 50px;
-    grid-template-areas: " Advertising Business hsw . Privacy  Terms Settins ";
-}
-
-
+<div class="Navbar">
+            <a id="account" href="#" target="_balnk">Gmail</a>
+            <a id="Images" href="#" target="_blank">Images</a>
+             <a href="#"><img class="profil-image" src="2020-06-30.jpg"></a>
+            </div>
+            <div>
+                <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"></div><br>
+                <form action=""><input class="searchbar" type="search">
+                </form><br>
+            
+            <div class="buttons">
+                <button type="button" class="left-button">Google search</button> 
+                <button type="button" class="right-button">I'm Feeling Lucky</button>
+            </div>
+            <div>
+                <p class="text-links">Google offered in:
+                    <a href="https://www.google.com/" target="_blank">O'zbek</a> 
+                    <a href="https://www.google.com/">русский</a>
+                </p>
+            </div>
+            <div class="text-uzbeistan">
+                <div class="text-postion">
+                Uzbekistan
+               </div>
+            </div>
+            <footer>
+                <ul>
+                    <li style="margin-left: 10px"><a href="https://ads.google.com/intl/en_uz/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">Advertising</a></li> 
+                    <li><a href="https://ads.google.com/intl/en_uz/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">Business</a></li>
+                    <li><a href="https://about.google/?utm_source=google-UZ&amp;utm_medium=referral&amp;utm_campaign=hp-footer&amp;fg=1">About</a></li>
+                    <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+                    <li style="float:right; margin-right: 30px;"><a href="https://policies.google.com/privacy?hl=en-UZ&amp;fg=1">Privacy</a></li>
+                    <li style="float:right"><a href="https://policies.google.com/terms?hl=en-UZ&amp;fg=1">Terms</a></li>
+                    <li style="float:right"><a href="#">Settings</a></li>
+                
+               </ul>
